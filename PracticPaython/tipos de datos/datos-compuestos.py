@@ -15,8 +15,11 @@ conjunto= {"juan ", "soy camilo", True,1.89}
 
 
 
-#creando un diccionario (dict)
+#creando un diccionario (dict)(la estrutura es key: value y separados comas)
 diccionario= {
-    'nombre': "juan camilo"
+    'nombre': "juan camilo",
+    'esta_emocionado': True,
+    'altura': 1.89
 }
-print(conjunto)
+print(diccionario['altura'])
+print(lista[3])
