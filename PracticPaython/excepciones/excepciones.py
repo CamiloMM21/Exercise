@@ -15,7 +15,7 @@ def sumar_dos():
         else:
             break
         finally:
-            print("Esto se ejecuta siempre")
+            print("Esto se ejecuta siempre finalizado")
         return resultado
 
 print(sumar_dos())
